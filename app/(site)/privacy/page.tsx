@@ -92,8 +92,8 @@ const PrivacyPage = () => {
               Web browser cookies
             </h2>
             <p>
-              Our Site may use “cookies” to enhance User experience. User's web
-              browser places cookies on their hard drive for record-keeping
+              Our Site may use “cookies” to enhance User experience. User&apos;s
+              web browser places cookies on their hard drive for record-keeping
               purposes and sometimes to track information about them. User may
               choose to set their web browser to refuse cookies, or to alert you
               when cookies are being sent. If they do so, note that some parts

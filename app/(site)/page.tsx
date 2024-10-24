@@ -14,9 +14,17 @@ import Blog from "@/components/Blog";
 import Testimonial from "@/components/Testimonial";
 
 export const metadata: Metadata = {
-  title: "Next.js Starter Template for SaaS Startups - Solid SaaS Boilerplate",
-  description: "This is Home for Solid Pro",
+  title: "Katana Studio",
+  description: "Your Partner in Digital Journey",
+  metadataBase: new URL("https://katana.studio"),
   // other metadata
+  openGraph: {
+    title: "Katana Studio",
+    description: "Your Partner in Digital Journey",
+    type: "website",
+    url: "https://katana.studio",
+    images: "/assets/images/logo/logo-light.svg",
+  },
 };
 
 export default function Home() {

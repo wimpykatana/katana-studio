@@ -4,7 +4,8 @@ import { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Blog Page - Katana Studio",
-  description: "This is Blog page for Katana studio",
+  description:
+    "This is Blog page for Katana studio - Your Partner in Digital Journey",
   // other metadata
 };
 
