@@ -27,7 +27,7 @@ const Footer = () => {
                 whileInView="visible"
                 transition={{ duration: 1, delay: 0.5 }}
                 viewport={{ once: true }}
-                className="animate_top w-1/2 lg:w-1/4"
+                className="animate_top w-4/5 lg:w-1/4"
               >
                 <div className="flex justify-center">
                   <a href="/" className="relative">
@@ -54,10 +54,10 @@ const Footer = () => {
                   contact
                 </p>
                 <a
-                  href="#"
+                  href="mailto:hello@katanastudio.net"
                   className="text-itemtitle font-medium text-black dark:text-white"
                 >
-                  hello@solid.com
+                  hello@katanastudio.net
                 </a>
               </motion.div>
 

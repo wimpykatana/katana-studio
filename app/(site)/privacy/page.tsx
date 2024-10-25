@@ -4,10 +4,6 @@ import Link from "next/link";
 import React from "react";
 
 const PrivacyPage = () => {
-  /**
-   * Source: https://www.joshwcomeau.com/react/the-perils-of-rehydration/
-   * Reason: To fix rehydration error
-   */
   const [hasMounted, setHasMounted] = React.useState(false);
   React.useEffect(() => {
     setHasMounted(true);
@@ -43,7 +39,7 @@ const PrivacyPage = () => {
             <p>
               This Privacy Policy governs the manner in which Katana Studio
               collects, uses, maintains and discloses information collected from
-              users (each, a “User”) of the http://katanastudio.com/ website
+              users (each, a “User”) of the http://katanastudio.net/ website
               (“Site”). This privacy policy applies to the Site and all products
               and services offered by Katana Studio.
             </p>
@@ -145,10 +141,10 @@ const PrivacyPage = () => {
               of this site, or your dealings with this site, please contact us
               at:
             </p>
-            <Link href="https://katanastudio.com/">
+            <Link href="https://katanastudio.net/">
               <p className="underline hover:text-blue-500">Katana Studio</p>
             </Link>
-            <p>katana.studio[at]gmail.com</p>
+            <p>hello[at]katanastudio.net</p>
             <p>This document was last updated on October 23, 2024</p>
           </motion.div>
         </div>
