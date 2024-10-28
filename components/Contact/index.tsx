@@ -23,7 +23,10 @@ const Contact = () => {
   const handleSubmit = async (e: React.MouseEvent<HTMLButtonElement>) => {
     e.preventDefault();
     setIsLoad(true);
-    if (!isAgree) {
+
+    if (!name || !email || !subject || !phone || !message) {
+      alert("Please fill all the fields");
+    } else if (!isAgree) {
       alert("Please agree to the terms and conditions");
     } else {
       await sendContactEmail(stateValues);
