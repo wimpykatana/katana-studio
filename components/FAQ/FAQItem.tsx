@@ -1,6 +1,7 @@
 type FaqData = {
   activeFaq: number;
   id: number;
+  // eslint-disable-next-line no-unused-vars
   handleFaqToggle: (id: number) => void;
   quest: string;
   ans: string;

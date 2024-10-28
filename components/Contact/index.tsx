@@ -273,7 +273,7 @@ const Contact = () => {
                   Phone Number
                 </h4>
                 <p>
-                  <a href="#">+62 856 8809 107</a>
+                  <a href="https://wa.me/628568809107">+62 856 8809 107</a>
                 </p>
               </div>
             </motion.div>

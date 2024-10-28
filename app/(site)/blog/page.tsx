@@ -7,6 +7,14 @@ export const metadata: Metadata = {
   description:
     "This is Blog page for Katana studio - Your Partner in Digital Journey",
   // other metadata
+  openGraph: {
+    title: "Blog Page - Katana Studio",
+    description:
+      "This is Blog page for Katana studio - Your Partner in Digital Journey",
+    type: "website",
+    url: "https://katana.studio/blog",
+    images: "/assets/images/logo/logo-light.svg",
+  },
 };
 
 const BlogPage = async () => {

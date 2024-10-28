@@ -15,7 +15,7 @@ const Blog = async () => {
             headerInfo={{
               title: `NEWS & BLOGS`,
               subtitle: `Latest News & Blogs`,
-              description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor eros. Donec vitae tortor lacus. Phasellus aliquam ante in maximus.`,
+              description: `Follow our latest news in our blog and stay updated with the latest trends in the industry.`,
             }}
           />
         </div>
