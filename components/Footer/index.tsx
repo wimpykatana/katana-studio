@@ -32,14 +32,14 @@ const Footer = () => {
                 <div className="flex justify-center">
                   <a href="/" className="relative">
                     <Image
-                      width={110}
+                      width={200}
                       height={80}
                       src="/images/logo/logo-light.svg"
                       alt="Logo"
                       className="dark:hidden"
                     />
                     <Image
-                      width={110}
+                      width={200}
                       height={80}
                       src="/images/logo/logo-dark.svg"
                       alt="Logo"
