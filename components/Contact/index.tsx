@@ -24,18 +24,22 @@ const Contact = () => {
     e.preventDefault();
     setIsLoad(true);
 
+    let isSuccess = false;
+
     if (!name || !email || !subject || !phone || !message) {
       alert("Please fill all the fields");
     } else if (!isAgree) {
       alert("Please agree to the terms and conditions");
     } else {
-      await sendContactEmail(stateValues);
+      isSuccess = await sendContactEmail(stateValues);
     }
 
-    setIsLoad(false);
-    setIsSuccess(true);
-    setStateValues(initValues);
-    setIsAgree(false);
+    if (isSuccess) {
+      setIsLoad(false);
+      setIsSuccess(true);
+      setStateValues(initValues);
+      setIsAgree(false);
+    }
   };
 
   /**

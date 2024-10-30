@@ -1,7 +1,10 @@
 /* eslint-disable no-unused-vars */
 import { transporter, mailOptions } from "@/config/nodemailer";
+import { NextRequest, NextResponse } from "next/server";
 
-export async function POST(req: Request, res: Response) {
+export async function POST(req: NextRequest, res: NextResponse) {
+  //export default async function handler(  req: NextApiRequest,res: NextApiResponse,) {
+  //if (req.method === "POST") {
   const data = await req.json();
 
   try {
@@ -20,4 +23,5 @@ export async function POST(req: Request, res: Response) {
       headers: { "Content-Type": "application/json" },
     });
   }
+  //}
 }
