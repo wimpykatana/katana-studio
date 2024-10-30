@@ -3,8 +3,9 @@ import Image from "next/image";
 
 export const metadata: Metadata = {
   title: "Error Page - Katana Studio",
-  description: "This is Error page of Katana Studio",
+
   // other metadata
+  description: "This is Error page of Katana Studio"
 };
 
 const ErroPage = () => {

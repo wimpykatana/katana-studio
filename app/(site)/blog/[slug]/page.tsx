@@ -16,12 +16,13 @@ const formatDate = (dateString: string) => {
 };
 
 type Params = {
-  params: {
+  params: Promise<{
     slug: string;
-  };
+  }>;
 };
 
-const SingleBlogPage = async ({ params }: Params) => {
+const SingleBlogPage = async (props: Params) => {
+  const params = await props.params;
   const post = getPostBySlug(params.slug);
   const content = await markdownToHtml(post.content || "");
 
@@ -70,7 +71,8 @@ const SingleBlogPage = async ({ params }: Params) => {
   );
 };
 
-export function generateMetadata({ params }: Params): Metadata {
+export async function generateMetadata(props: Params): Promise<Metadata> {
+  const params = await props.params;
   const post = getPostBySlug(params.slug);
 
   if (!post) {

@@ -3,7 +3,7 @@
   "version": "0.2.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
@@ -11,26 +11,30 @@
   "dependencies": {
     "@types/bcrypt": "^5.0.1",
     "@types/node": "^20.8.9",
-    "@types/react": "^18.2.32",
-    "@types/react-dom": "^18.2.14",
+    "@types/react": "npm:types-react@19.0.0-rc.1",
+    "@types/react-dom": "npm:types-react-dom@19.0.0-rc.1",
     "autoprefixer": "^10.4.16",
     "eslint": "8.41.0",
-    "eslint-config-next": "13.4.4",
+    "eslint-config-next": "15.0.2",
     "framer-motion": "^10.12.16",
     "gray-matter": "^4.0.3",
-    "next": "^13.5.6",
+    "next": "15.0.2",
     "next-themes": "^0.2.1",
     "nodemailer": "^6.9.15",
     "postcss": "^8.4.31",
     "prettier": "^3.0.3",
     "prettier-plugin-tailwindcss": "^0.5.6",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
+    "react": "19.0.0-rc-02c0e824-20241028",
+    "react-dom": "19.0.0-rc-02c0e824-20241028",
     "react-hot-toast": "^2.4.1",
     "remark": "^15.0.1",
     "remark-html": "^16.0.1",
     "swiper": "^9.3.2",
     "tailwindcss": "^3.3.5",
     "typescript": "^5.2.2"
+  },
+  "overrides": {
+    "@types/react": "npm:types-react@19.0.0-rc.1",
+    "@types/react-dom": "npm:types-react-dom@19.0.0-rc.1"
   }
 }

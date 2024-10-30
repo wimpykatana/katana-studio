@@ -18,6 +18,7 @@ export const metadata: Metadata = {
   title: "Katana Studio",
   description: "Your Partner in Digital Journey",
   metadataBase: new URL("https://katana.studio"),
+
   // other metadata
   openGraph: {
     title: "Katana Studio",
@@ -25,7 +26,7 @@ export const metadata: Metadata = {
     type: "website",
     url: "https://katana.studio",
     images: "/assets/images/logo/logo-light.svg",
-  },
+  }
 };
 
 export default function Home() {

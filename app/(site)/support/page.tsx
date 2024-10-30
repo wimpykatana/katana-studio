@@ -4,9 +4,10 @@ import { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Support Page - Katana Studio",
-  description:
-    "This is Support page for Katana studio - Your Partner in Digital Journey",
+
   // other metadata
+  description:
+    "This is Support page for Katana studio - Your Partner in Digital Journey"
 };
 
 const SupportPage = () => {
