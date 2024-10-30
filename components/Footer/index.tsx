@@ -30,7 +30,7 @@ const Footer = () => {
                 className="animate_top w-4/5 lg:w-1/4"
               >
                 <div className="flex justify-center">
-                  <a href="/" className="relative">
+                  <Link href="/" className="relative">
                     <Image
                       width={200}
                       height={80}
@@ -45,7 +45,7 @@ const Footer = () => {
                       alt="Logo"
                       className="hidden dark:block"
                     />
-                  </a>
+                  </Link>
                 </div>
 
                 <p className="mb-10 mt-5">Your Partner in Digital Journey</p>
